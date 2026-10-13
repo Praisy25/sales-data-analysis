@@ -1,0 +1,14 @@
+
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.env
+.DS_Store
+
+# Local datasets and generated database
+data/raw/*
+data/processed/*
+
+# Keep directory placeholders if needed
+!data/raw/.gitkeep
+!data/processed/.gitkeep
